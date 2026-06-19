@@ -1,5 +1,5 @@
-nama = input("nama:")
-umur = int(input("umur:"))
+name = input("name:")
+age = int(input("age:"))
 
-print("nama:",nama)
-print("umur:",umur)
+print("name:",name)
+print("age:",age)
