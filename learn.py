@@ -1,5 +1,14 @@
-name = input("name:")
-age = int(input("age:"))
+name = input("Name:")
+score = int(input("Score:"))
+if score >= 80:
+    print("Great")
+else:
+    print("Needs improvement")
 
-print("name:",name)
-print("age:",age)
+subjects = ["Math","Science","English"]
+subjects.append("Coding")
+
+for course in subjects:
+    print(course)
+
+print("Thank you",name)
